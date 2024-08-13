@@ -1,0 +1,486 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+
+}
+body{
+    
+    overflow-x: hidden;
+    
+    
+}
+
+#header{
+    background: black;
+    height: 65px;
+    position: sticky ;
+    top: 0px;
+    z-index: 1;
+    
+    
+    
+}
+#logo{
+    color: aliceblue;
+    position: absolute;
+    top: 7px;
+    left: 95px;
+    font-size: 32px;
+    cursor: pointer;
+    
+}
+
+
+.dropdown{
+    position: absolute;
+    border: 2px solid #e29803;
+    padding: 10px 8px;
+     display: none; 
+    line-height: 35px;
+    border-radius: 20px;
+    
+
+
+}
+.dd{
+    color: white;
+    text-decoration: none;
+   
+    
+   
+}
+.hok:hover .dropdown{
+    display: block;
+    
+}
+.lis:hover{
+    background-color: #e29803;
+    color: black;
+    border-radius: 10px;
+}
+
+
+span{
+    color: #ffc451;
+}
+.opt{
+    display: inline; 
+    padding: 10px;
+    cursor: pointer;
+
+     
+    
+    
+}
+
+#menus{
+    position: absolute;
+    display: flex;
+    right: 560px;
+    top: 21px;
+    
+    
+    
+}
+.menuname{
+    color: white;
+    text-decoration: none;
+    
+    
+    
+}
+#btn{
+    position: absolute;
+    right: 110px;
+    top: 21px;
+    border: 2px solid #ffc451;
+    background: black;
+    color: white;
+    padding: 8px 30px;
+    top: 13px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.active{
+    color: #ffc451;
+}
+.menuname:hover{
+    color: #ffc451;
+}
+#btn:hover{
+    background: #ffc451;
+    color: black;
+}
+#text{
+    margin-top: 5%;
+    margin-left: 8%;
+    font-size: 26px;
+    color: white;
+}
+#banner{
+    background-image: url(digital\ dulex.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background-size: cover;
+    
+
+}
+.textedit{
+    letter-spacing: 2px;
+}
+
+    
+
+#expbtn{
+    margin-left: 8%;
+    margin-top: 3%;
+    border: 2px solid #ffc451;
+    border-radius: 3px;
+    background: black;
+    color: white;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+#expbtn:hover{
+    background: #ffc451;
+    color: black;
+}
+#services{
+    overflow: hidden;
+    background: black;
+}
+.box{
+    display: inline-block;
+    width: 28%;
+    margin: 15px;
+    border: 2px solid #ffc451;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: "Poppins",sans-serif;
+    cursor: pointer;
+    margin-left: 33px;
+
+    
+    
+    
+    
+
+
+}
+.sechead{
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.head{
+    letter-spacing: 2px;
+    
+}
+
+
+.par{
+    line-height: 27px;
+}
+.box:hover{
+    background: #ffc451;
+    color: black;
+}
+#contact{
+    
+    
+    background-color: black;
+    overflow: hidden;
+    
+}
+.foot{
+    display: flex;
+}
+
+.footerbox{
+   
+    background: black;
+    width: 20%;
+    height: 300px;
+    margin: 15px;
+    margin-left:60px;
+    color: white;
+    margin-top: 80px;
+    
+   
+    
+}
+.b1{
+ flex: 1;
+}
+
+.ourservice{
+    flex: 2;
+}
+.links{
+    flex: 1;
+}
+
+
+
+.cont{
+   
+    color: white;
+    margin-top: 45px;
+   
+    font-size: 30px;
+    text-align: center;
+    
+}
+.fa-brands{
+   
+   padding:    20px 10px;
+    border: 1px solid hsl(40, 100%, 66%);
+    border-radius: 50%;
+    background:black;
+   
+    color: white;
+    cursor: pointer;
+}
+.h{
+   color: #ffc451;
+}
+.list{
+    line-height: 30px;
+    list-style-type:none;
+}
+.input{
+    padding: 5px;
+    border: 2px solid #ffc451;
+}
+.subbtn{
+    color: black;
+    padding: 5px;
+    border: 2px solid #ffc451;
+    background:#ffc451;
+    cursor: pointer;
+}
+
+.subbtn:hover{
+    background: #e29803;
+
+}
+
+.fa-brands:hover{
+    background: #ffc451;
+    color: black;
+}
+.sub{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+
+}
+.sub:hover{
+    color: #ffc451;
+}
+.fa-bars{
+    color: white;
+    position: absolute;
+    right:35px;
+    top: 25px;
+    display: none !important;
+}
+
+#info{
+    background: black;
+    overflow: hidden;
+     
+}
+.sub-parent-info{
+    display: flex; 
+}
+.left-info{
+    flex: 1;
+    height: 300px;
+    width: 50%;
+    background:black;
+
+}
+
+.right-info{
+    flex: 2;
+    height: 300px;
+    width: 50%;
+    background: black;
+
+}
+.top-name{
+    display: flex;
+    
+}
+#name{
+    width: 100%;
+    padding: 8px;
+    margin: 5px;
+    border: 1px solid #e29803;
+    background: rgb(37, 35, 35);
+    color: white;
+    
+}
+#name2{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #e29803;
+    background: rgb(37, 35, 35);
+    color: white;
+    
+}
+#name3{
+    width: 100%;
+    height: 65px;
+    border: 1px solid #e29803;
+    background: rgb(37, 35, 35);
+    color: white;
+    
+    
+    
+}
+.mar{
+    margin-top: 30px;
+}
+.leo{
+    
+    padding:    30px 20px;
+    border-radius: 30%;
+    background:#ffc451;
+   
+    color: black;
+    cursor: pointer;
+}
+.dot{
+    display: flex;
+    margin-top: 20px;
+}
+#Address{
+    margin-left: 20px;
+    color: white;
+}
+.msgbtn{
+    border: 2px solid #ffc451;
+    background: black;
+    color: white;
+    padding: 8px 30px;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-left: 40%;
+}
+.msgbtn:hover{
+    background: #ffc451;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:480px) and (max-width:600px ){
+    
+   
+    #menus, #btn, {
+        display: none ;
+    }
+    .fa-bars{
+        color: white;
+        position: absolute;
+        right:35px;
+        top: 25px;
+        display: block !important;
+    }
+    #logo{
+        color: aliceblue;
+        position: absolute;
+        top: 9px;
+        left: 42px;
+        font-size: 30px;
+        cursor: pointer;
+        
+       
+    }
+    #expbtn{
+        margin-left: 8%;
+        margin-top: 3%;
+        border: 2px solid #ffc451;
+        border-radius: 3px;
+        background: black;
+        color: white;
+        padding: 5px 20px;
+        cursor: pointer;
+    }
+    #text{
+        margin-top: 5%;
+    margin-left: 8%;
+    font-size: 15px;
+    color: white;
+    }
+    .box{
+        
+        width: 85%;
+
+    }
+    
+    .foot{
+        flex-direction: column;
+    }
+    .footerbox{
+   
+        background: black;
+        width: 40%;
+        height: 300px;
+        margin: 15px;
+        margin-left:60px;
+        color: white;
+        margin-top: 80px;
+        
+       
+        
+    }
+    .sub-parent-info{
+        flex-direction: column;
+    }
+   .msgbtn{
+    margin-left: 0px;
+   }
+   .right-info{
+    flex: 2;
+    height: 300px;
+    width: 50%;
+    background: black;
+    
+
+}
+    
+  
+   
+
+
+   
+}
+
+
+   
+
+    
+   
+
+
+
